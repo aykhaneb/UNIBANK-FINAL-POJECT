@@ -1,0 +1,331 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // font-family: 'Montserrat', serif;
+}
+
+.container_lg_banking {
+    width: 64% !important;
+    margin: 0 auto !important;
+    padding: 100px 0;
+
+}
+
+.container_lg_fin {
+    width: 87% !important;
+    margin: 0 auto !important;
+}
+
+.text_none_white {
+    text-decoration: none;
+    color: #fff;
+}
+
+.text_none_black {
+    text-decoration: none;
+    color: #323232;
+}
+
+.body_banking {
+    background-color: #ededed;
+}
+
+
+body::-webkit-scrollbar {
+    width: 5px;
+    background-color: #ff6400;
+    -webkit-border-radius: 4px;
+}
+
+.banking {
+    .all_banking {
+        .header_banking {
+            padding: 10px 0;
+
+            .logo_banking {
+                width: 12%;
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .lang_banking {
+                a {
+                    text-decoration: none;
+                    color: #7C7C7C;
+                    font-size: 15px;
+                    padding: 6px 4px;
+                    border-radius: 3px;
+                    transition: 1s;
+
+                    &:hover {
+                        color: #fff;
+                        background-color: #000000;
+                    }
+                }
+
+                .active_banking {
+                    border-bottom: 1px solid;
+                    font-weight: 700;
+                }
+            }
+        }
+
+        .main_banking {
+            .main_banking_content {
+                background-color: #fafafa;
+
+                .b {
+                    background-color: #fff;
+                    border-radius: 7px;
+                    box-shadow: -8px 3px 12px 4px rgba(0, 0, 0, .08);
+                }
+
+                border-radius: 7px;
+
+                .a {
+
+                    position: relative;
+                }
+
+                .left_part_banking {
+
+                    .left_part_content {
+                        padding: 80px 90px;
+
+                        .img_left {
+                            margin-bottom: 25px;
+                            width: 100%;
+
+                            img {
+                                border-radius: 6px;
+                                width: 100%;
+                                box-shadow: 10px 10px 33px 0 rgba(0, 0, 0, .15);
+                            }
+                        }
+
+                        .left_txt1 {
+                            font-size: 22px;
+                            font-weight: 700;
+                            color: #3E3E3E;
+                            margin-bottom: 20px;
+                        }
+
+                        .left_txt2 {
+                            font-size: 18px;
+                            color: #9b9b9b;
+                            margin-bottom: 8rem;
+                        }
+
+                        .indicators_banking {
+                            position: absolute;
+                            bottom: 7%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+
+                            .active_banking {
+                                background-color: #FF6400;
+                            }
+
+                            ul {
+                                list-style: none;
+                                display: flex;
+                                margin: 0 auto;
+                                width: 100px;
+
+                                li {
+                                    background-color: #E6E6E6;
+                                    margin-right: 6px;
+                                    border-radius: 50px;
+                                    width: 15px;
+                                    height: 15px;
+                                    cursor: pointer;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .right_part_banking {
+                    .right_part_content {
+                        padding: 60px 0;
+
+                        .intro_banking {
+                            margin-bottom: 15px;
+
+                            .intro {
+                                font-size: 20px;
+                                color: #3f3f3f;
+                                font-weight: bold;
+
+                            }
+
+                            .login {
+
+                                // width: 20%;
+                                a {
+                                    color: #000000;
+                                    font-size: 18px;
+                                    font-weight: 700;
+                                    padding: 0px 2px;
+                                    text-decoration: none;
+                                    border-bottom: 2px solid;
+                                }
+                            }
+                        }
+
+                        .qr_code_and_fin {
+                            .qr_code_part {
+
+                                // width: 50%;
+                                img {
+                                    width: 220px;
+                                }
+                            }
+
+                            .fin_part {
+                                width: 50%;
+                                padding: 30px 0;
+
+                                .fin_kod {
+                                    margin-bottom: 20px;
+
+                                    .active_fin {
+                                        border: 1px solid #FF6400;
+                                        border-radius: 5px;
+                                    }
+                                }
+
+                                .fin_kod,
+                                .asan {
+                                    width: 14.5rem;
+                                    border: 1px solid #d2d2d2;
+                                    border-radius: 5px;
+                                    cursor: pointer;
+
+                                    .fin {
+                                        padding: 20px 35px;
+                                        font-size: 16px;
+                                        color: #000000;
+
+                                        img {
+                                            margin-right: 5px;
+                                            width: 30px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .info_qr {
+                            background-color: #f3f3f3;
+                            margin-bottom: 20px;
+
+                            .info_qr_content {
+                                padding: 10px 10px;
+
+                                i {
+                                    font-size: 25px;
+                                    color: #3f3f3f;
+                                    margin-right: 7px;
+                                }
+
+                                span {
+                                    font-size: 15px;
+                                    color: gray;
+                                }
+
+                            }
+                        }
+
+                        .id_card_text {
+                            color: #FF6400;
+                            font-size: 14px;
+                            padding: 4px 20px;
+                        }
+
+                        .id_card {
+                            img {
+                                color: #3f3f3f;
+                            }
+
+                            border-bottom: 1px solid #d6d6d6;
+                            margin-bottom: 10px;
+
+                            .id_card_content {
+                                position: relative;
+
+                                input {
+                                    border: none;
+                                    padding: 7px 6px;
+
+                                    &:focus {
+                                        outline: none;
+                                        color: #3f3f3f
+                                    }
+                                }
+
+                                img {
+                                    color: #3f3f3f;
+                                }
+
+                                .i {
+                                    position: absolute;
+                                    top: 54%;
+                                    right: 1px;
+                                    transform: translate(-50%, -50%);
+                                }
+                            }
+                        }
+
+                        .end_form {
+                            .all_kod {
+                                .id_card_text {
+                                    padding: 4px 60px;
+                                }
+                            }
+
+                            .forgot_pass {
+                                margin-bottom: 13px;
+
+                                a {
+                                    color: #7977A1;
+                                    font-size: 18px;
+                                    // font-weight: 700;
+                                    padding: 0px 2px;
+                                    text-decoration: none;
+                                    border-bottom: 2px solid;
+                                }
+                            }
+                        }
+
+                        .login_end {
+                            position: relative;
+                            margin-top: 30px;
+                            background: #ff6400;
+                            border-radius: 5px;
+                            padding: 10px 0;
+
+                            a {
+                                @extend .text_none_white;
+                                padding: 0px 40px;
+                                font-size: 18px;
+                            }
+
+                            i {
+                                color: #fff;
+                                position: absolute;
+                                right: 5px;
+                                top: 50%;
+                                transform: translate(-50%, -50%);
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}

@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.text_none_white {
+    text-decoration: none;
+    color: #fff;
+}
+
+.text_none_black {
+    text-decoration: none;
+    color: var(--black-color);
+}
+
+.resources_video {
+    iframe {
+        opacity: .3;
+        height: 280px;
+    }
+}
+
+.chat {
+
+    i {
+        position: fixed;
+        color: #FF6400;
+        background-color: #fff;
+        padding: 25px 25px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        font-weight: 700;
+        cursor: pointer;
+        border-radius: 50%;
+        // position: absolute;
+        right: 3%;
+        bottom: 6%;
+        font-size: 25px;
+    }
+}
+
+.progress_section {
+    margin-top: 30px;
+    margin-bottom: 7rem;
+
+    .all_progress {
+        .content_progress {
+            .box_progress_hover {
+                &:hover {
+
+                    cursor: pointer;
+                    background-color: #FF6400;
+
+                    i,
+                    .heading_progress,
+                    .pharaghraph {
+                        color: #fff !important;
+                    }
+                }
+            }
+
+            .box_progress {
+                background-color: var(--fafa-light-color);
+                border-radius: 10px;
+                padding: 4rem 50px;
+                transition: .3s;
+
+
+
+                .box_progress_content {
+                    .sm_right {
+                        display: none;
+                    }
+
+                    h1 {
+                        font-size: 34px;
+                        color: #FF6400;
+                        margin-top: -20px;
+                    }
+
+                    p {
+                        font-size: 16px;
+                        font-family: CocoSharp, Arial;
+                        color: var(--black-dark-color);
+                    }
+
+                    i {
+                        font-size: 60px;
+                        color: #FF6400;
+                        margin-bottom: 30px;
+                    }
+
+                    .heading_progress {
+                        font-weight: bold;
+                        font-size: 20px;
+                        color: var(--primary-color);
+                        line-height: normal;
+                        margin-bottom: 10px;
+                    }
+
+                    .pharaghraph {
+                        font-family: CocoSharp, Arial;
+                        font-weight: 500;
+                        font-size: 19px;
+                        color: var(--col-color);
+                        line-height: normal;
+                        margin-bottom: 20px;
+                        height: 60px;
+                    }
+
+                    img {
+                        width: 25%;
+                        margin-top: -35px;
+                        border-radius: 50%;
+                    }
+
+                    .txt_top {
+                        font-size: 22px;
+                        font-weight: bold;
+                        margin-bottom: 10px;
+                        color: var(--black-dark-color);
+                    }
+
+                    .txt_center {
+                        font-size: 16px;
+                        color: var(--dark-black-color);
+                        margin-bottom: 15px;
+                    }
+
+                    .txt_bottom {
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: var(--black-dark-color);
+                    }
+                }
+            }
+
+            .box_features {
+                background-color: #FF6400;
+                color: #fff;
+                border-radius: 10px;
+                // height: 220px;
+                margin-bottom: 30px;
+
+                .box_features_content {
+                    padding: 40px 35px;
+
+                    i {
+                        font-size: 54px;
+                        margin-bottom: 17px;
+                    }
+
+                    .text_features {
+                        font-size: 16px;
+                        font-weight: bold;
+                    }
+                }
+            }
+
+            .end_box {
+                margin-top: -35px;
+
+                .end_box_content {
+                    .end_txt {
+                        font-size: 23px;
+                        font-weight: bold;
+                        margin-bottom: 10px;
+                        color: var(--black-dark-color);
+                    }
+
+                    p {
+                        font-size: 17px;
+                        color: var(--black-dark-color);
+                    }
+                }
+            }
+        }
+    }
+}
